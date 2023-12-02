@@ -10,5 +10,5 @@ Requiements:<br>
 <br>
 To authorize client and server, simply update the token string & file on both sides so it matches up<br>
 <br>
-[ ] - add config files
-[ ] - maybe add little dashboard
+- [ ] - add config files<br>
+- [ ] - maybe add little dashboard
