@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JPabz6Wh6w8wQV3AjYHe9DY70ZgXyRbsc8bNmamKgQUAmhADyIsjF7qYsSP844fHlAv7njQnYJ7gZ7LKXi7Jfw==",
+  "success": true,
+  "projectFilePath": "/home/stigl/Projects/Cs/Exposer/client/client.csproj",
+  "expectedPackageFiles": [
+    "/home/stigl/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.25/microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
