@@ -18,8 +18,7 @@ class Program{
         if(!msg.SequenceEqual("authorized")){
             Console.WriteLine("Auth error");
             return;
-        }Console.WriteLine("pog");
-
+        }
         while(true){
             byte[] buffer = new byte[4096];
             int lenght0 = nstream.Read(buffer);
@@ -32,12 +31,12 @@ class Program{
             buffer = new byte[4096];
             int lenght1 =  requestClient.GetStream().Read(buffer);
             int lenght2 =  requestClient.GetStream().Read(buffer,lenght1,4096-lenght1);
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(Encoding.UTF8.GetString(buffer));
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(Encoding.UTF8.GetString(buffer,lenght1,4096-lenght1));
+            //Console.ForegroundColor = ConsoleColor.Green;
+            //Console.WriteLine(Encoding.UTF8.GetString(buffer));
+            //Console.ForegroundColor = ConsoleColor.Yellow;
+            //Console.WriteLine(Encoding.UTF8.GetString(buffer,lenght1,4096-lenght1));
 
-            Console.ResetColor();
+            //Console.ResetColor();
             nstream.Write(buffer,0,Math.Min(lenght1 + lenght2,4096));
             requestClient.Close();
         }
