@@ -1,5 +1,4 @@
-client/bin/
-server/bin/
-client/obj/
-server/obj/
-server/bin/Debug/net6.0/server.dll
+**/bin/*
+**/obj/*
+*.dll
+*.pdb
